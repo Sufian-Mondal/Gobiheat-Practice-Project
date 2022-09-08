@@ -686,7 +686,7 @@ img {
 /* gh-womens-wrap-section-design-start *******************************/
 
 .womens-side-to-side-section-main {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .womens-main-wrapper {
@@ -766,7 +766,6 @@ img {
     flex-basis: 100%;
   }
 }
-
 @media only screen and (max-width: 1080px) {
   .womens-with-dog-wrap img {
     height: 100% !important;
@@ -775,3 +774,412 @@ img {
 }
 
 /* gh-womens-wrap-section-design-ends *******************************/
+
+/* gh perfect section design start *********************************************/
+.gh-block-main {
+  padding: 100px 100px;
+  background-color: #f0f0f0;
+}
+
+.gh-perfect-block-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gh-block-perfect-heading {
+  margin-bottom: 40px;
+}
+.gh-block-perfect-heading h3 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #3d3b3b;
+}
+
+.gh-perfect-block-single {
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 19.75%;
+  background-color: #4fbbd6;
+  margin-bottom: 10px;
+  align-items: center;
+  border-radius: 4px;
+}
+.gh-perfect-block-single a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.gh-perfect-block-single-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 45.25%;
+  background-color: #333333;
+  margin-bottom: 10px;
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+.gh-perfect-block-single-wrap p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.gh-perfect-block-single img {
+  max-width: 18px;
+  background-color: #000;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.gh-perfect-block-single:hover {
+  background-color: #333333;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+  .gh-block-main {
+    padding: 5px;
+  }
+  .gh-block-perfect-heading h3 {
+    font-size: 26px;
+    margin-top: 20px;
+  }
+  .gh-perfect-block-single {
+    flex-basis: 100%;
+  }
+  .gh-perfect-block-single-wrap {
+    flex-basis: 100%;
+  }
+  .gh-perfect-block-single-wrap P {
+    line-height: 1.2;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .gh-block-main {
+    padding: 5px;
+  }
+  .gh-perfect-block-single {
+    flex-basis: 40% !important;
+  }
+  .gh-perfect-block-single-wrap {
+    flex-basis: 100%;
+    justify-content: center;
+  }
+  .gh-perfect-block-single-wrap P {
+    line-height: 1.2;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .gh-block-main {
+    padding: 5px;
+  }
+  .gh-perfect-block-single {
+    flex-basis: 43%;
+  }
+  .gh-perfect-block-single-wrap {
+    flex-basis: 100%;
+    justify-content: center;
+  }
+  .gh-perfect-block-single-wrap P {
+    line-height: 1.2;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .gh-block-main {
+    padding: 5px;
+  }
+  .gh-perfect-block-single-wrap {
+    flex-basis: 100%;
+    justify-content: center;
+    padding: 24px 24px;
+  }
+  .gh-perfect-block-single {
+    flex-basis: 25%;
+  }
+}
+
+/* gh perfect section design ends *********************************************/
+
+/* video section design start ********************/
+
+.video-main-wrap iframe {
+  z-index: 5;
+}
+.video-section-main {
+  background-color: #000;
+  padding-bottom: 20px;
+}
+
+.video-main-wrap {
+}
+
+/* video section design ends ********************/
+
+/* customer review section design start */
+
+.review-section {
+  background-color: #333333;
+}
+.customer-review-section-wrap {
+  padding: 130px 0px;
+}
+
+.review-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review-heading {
+  flex-basis: 50%;
+}
+.review-heading h3 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: sans-serif;
+  line-height: 1.2;
+  color: #ffffff;
+}
+.review-heading P {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: 1;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+.review-heading p span {
+  margin-right: 15px;
+}
+
+.cutomers-review-parts {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+.cutomers-review-block {
+  background-color: #3d3d3d;
+  flex-basis: 32%;
+  padding: 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.review-img {
+  margin-bottom: 20px;
+}
+.block-heading {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.block-pera {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+.block-name-bottom {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.block-link-bottom {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #ec5826;
+  text-decoration: none;
+}
+.button-review {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.button-review-arrow img {
+  max-width: 22px;
+}
+.button-review-arrow-right img {
+  max-width: 22px;
+}
+.button-review-arrow {
+  margin-right: 15px;
+}
+
+/* cutomer review section design ends */
+
+/* blog post design start */
+
+.blog-post-main {
+  background-color: #f7f7f7;
+  padding: 50px 0px;
+}
+.blog-post-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.blog-post-heading h2 {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: sans-serif;
+  line-height: 1.2;
+  color: #333333;
+}
+.blog-post-heading a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ec5826;
+}
+.blog-post-heading a:hover {
+  color: #4fbbd6;
+}
+.blog-post-details-camping {
+  background-color: #ffffff;
+  padding-top: 100px;
+  border-radius: 4px;
+  padding-left: 15px;
+}
+.blog-post-details-fishing {
+  background-color: #ffffff;
+  padding-top: 50px;
+  border-radius: 4px;
+  padding-left: 15px;
+}
+.blog-post-details-hunting {
+  background-color: #ffffff;
+  padding-top: 20px;
+  border-radius: 4px;
+  padding-left: 15px;
+}
+.blog-post-details-camping h3 a,
+.blog-post-details-hunting h3 a,
+.blog-post-details-fishing h3 a {
+  font-size: 22px;
+  line-height: 1.3;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #333333;
+}
+.blog-post-details-camping p,
+.blog-post-details-hunting p,
+.blog-post-details-fishing p {
+  font-size: 16px;
+  line-height: 21px;
+  color: #202020;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+  padding-right: 15px;
+}
+.blog-post-main-wrap {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.camping-tips-blog-post {
+  flex-basis: 48%;
+}
+.blog-img img {
+  width: 100%;
+  height: 264px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.button-blog-arrow-camping {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0;
+  margin-top: 152px;
+  cursor: pointer;
+}
+.button-blog-arrow-fishing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0;
+  margin-top: 105px;
+}
+
+.button-blog-arrow-hunting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0;
+  margin-top: 77px;
+}
+.button-blog-arrow-camping span svg,
+.button-blog-arrow-fishing span svg,
+.button-blog-arrow-hunting span svg {
+  padding: 27px 25px;
+  border-radius: 5px 0 5px 0;
+  cursor: pointer;
+}
+.camping-tips-blog-post:hover .button-blog-arrow-camping span svg {
+  background-color: #4fbbd6;
+}
+
+.stay-warm-blog-post {
+  flex-basis: 24%;
+}
+.stay-warm-blog-post:hover .button-blog-arrow-fishing span svg {
+  background-color: #4fbbd6;
+}
+
+.hunters-blog-post {
+  flex-basis: 24%;
+}
+.hunters-blog-post:hover .button-blog-arrow-hunting span svg {
+  background-color: #4fbbd6;
+}
+.button-blog-arrow-camping a,
+.button-blog-arrow-fishing a,
+.button-blog-arrow-hunting a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #4fbbd6;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  padding: 30px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-blog-arrow-hunting a:hover,
+.button-blog-arrow-camping a:hover,
+.button-blog-arrow-fishing a:hover {
+  color: #ec5826;
+}
